@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-image: url("../img/bg.png");
+}
+
+header {
+    background-color: #545253;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-height: 37px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.content {
+    background-color: #FFFFFF;
+    width: 670px;
+}
+
+.content-title {
+    color: #FFFFFF;
+    background-color: #545253;
+    padding: 15px 170px;
+}
+
+.content-title h1 {
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content-form {
+    background-color: #FFFFFF;
+}
+
+.more h3 {
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+.border {
+    /* height: 80vh;
+    width: 700px; */
+    margin: 50px auto;
+    border-right: 2px solid #A0BC57;
+    border-left: 2px solid #A0BC57;
+    border-bottom: 2px solid #A0BC57;
+    position: relative;
+}
+
+div#spacer:before {
+    content: "";
+    height: 2px;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #A0BC57;
+}
+
+div#spacer:after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A0BC57;
+}
